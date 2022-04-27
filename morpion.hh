@@ -28,7 +28,6 @@ public:
 
         // Check if the piece is valid
         std::vector<char> available_pieces = {'X', 'x', 'O', 'o'};
-        //unsigned long n = piece.size(); // Enlevé par Max
         char pawn;
 
         if (piece.size() != 1 || std::find(available_pieces.begin(), available_pieces.end(), piece[0]) == available_pieces.end()) { // Modifié par Max
